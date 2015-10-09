@@ -52,7 +52,7 @@ want to add `metadata.json` files for older versions of your library here.
 How is this project structured?
 -------------------------------
 
-To add metadata add the name of library (i.e. its bower id) as a folder to the root
+To add metadata add the name of library (i.e. its bower id) as a folder to the `data` folder
 of this project. Inside this package folder you can add folders for the versions you
 want to deliver. The version folders must be a semantic versions and can replace parts
 of this version by 'x' from the end, which work like wildcards. Inside the version folder
@@ -61,14 +61,14 @@ there must be the file `metadata.json` which holds the metadata (see below for i
 Let's explain with an example: Your library is named _mylib_. If the metadata for version 1.2.3
 needs to be looked up, the following files will be tried until one is found, that exists:
 
-1. `mylib/1.2.3/metadata.json`
-2. `mylib/1.2.x/metadata.json`
-3. `mylib/1.x.x/metadata.json`
-4. `mylib/x.x.x/metadata.json`
+1. `data/mylib/1.2.3/metadata.json`
+2. `data/mylib/1.2.x/metadata.json`
+3. `data/mylib/1.x.x/metadata.json`
+4. `data/mylib/x.x.x/metadata.json`
 
 Always try to use the most general version possible. Since most likely the structure of
 your project won't change during a major version, you most likely want to create the
-`mylib/1.x.x/metadata.json` in this repository to place the information for all versions
+`data/mylib/1.x.x/metadata.json` in this repository to place the information for all versions
 under major version 1.
 
 The metadata.json
