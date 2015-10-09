@@ -1,3 +1,6 @@
 {
-  "js": [ "angular.min.js" ]
+  "js": [ "angular.min.js" ],
+  "options": {
+    "after": [ "jquery" ]
+  }
 }
