@@ -1,0 +1,12 @@
+{
+  "js": [ "js/ngDialog.min.js"],
+  "css": [ "css/ngDialog.min.css" ],
+  "modules": {
+    "theme-default": {
+      "css": [ "css/ngDialog-theme-default.min.css" ]
+    },
+    "theme-plain": {
+      "css": [ "css/ngDialog-theme-plain.min.css" ]
+    }
+  }
+}
