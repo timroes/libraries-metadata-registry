@@ -105,7 +105,9 @@ need to request files of type `foobar` to get these files, which he isn't most l
 
 Some of the most common types in this file are:
 
-js   | JavaScript files
+type | description      
+-----|------------------
+js   | JavaScript files 
 css  | CSS files
 less | LESS files
 scss | SASS files
