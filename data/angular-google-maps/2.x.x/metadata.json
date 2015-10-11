@@ -1,0 +1,8 @@
+{
+  "js": [ "dist/angular-google-maps.min.js" ],
+  "modules": {
+    "streetview": {
+      "js": [ "dist/angular-google-maps-street-view.min.js" ]
+    }
+  }
+}
